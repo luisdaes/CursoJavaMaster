@@ -42,9 +42,5 @@ public class ConversionDeTipos {
         System.out.println("l = " + l);
 
         boolean b = true;
-        
-
-
-
     }
 }
