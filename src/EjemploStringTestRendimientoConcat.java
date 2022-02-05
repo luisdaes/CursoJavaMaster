@@ -21,9 +21,12 @@ public class EjemploStringTestRendimientoConcat {
         
         }
 
+        System.gc();
+
         long fin = System.currentTimeMillis();
         System.out.println(fin - inicio);
         System.out.println("c = " + c);
         System.out.println("StringBuilder = " + sb.toString());
+        System.exit(0);
     }
 }
