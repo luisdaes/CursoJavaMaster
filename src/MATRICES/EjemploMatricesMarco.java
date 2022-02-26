@@ -8,8 +8,7 @@ public class EjemploMatricesMarco {
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                if (i == 0 || i == matriz.length-1
-                || j == 0 || j == matriz[i].length-1){
+                if (i == j){
                     matriz[i][j] = 1;
                 }
             }
