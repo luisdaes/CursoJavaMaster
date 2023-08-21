@@ -1,0 +1,10 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–…ç‰8ä›ÿ°¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ú¬É¦ÿÿÿÿÿ8í›ÿ°¡1
+\
+java:S1161>":Add the "@Override" annotation above this method signature(”ÿ‹Åúÿÿÿÿ8ò›ÿ°¡1
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(¸‚ÃÆûÿÿÿÿ8ó›ÿ°¡1
+B
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8ô›ÿ°¡1
+a
+java:S1128"?Remove this unused import 'java.awt.event.WindowStateListener'.(ÿÄ­›ùÿÿÿÿ8ô›ÿ°¡1

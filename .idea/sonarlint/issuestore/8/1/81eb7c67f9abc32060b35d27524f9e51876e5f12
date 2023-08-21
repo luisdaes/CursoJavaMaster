@@ -1,0 +1,36 @@
+
+L
+java:S3740-"/Provide the parametrized type for this generic.(õ¡ïÉ8ìû¡°¡1
+f
+java:S1192"IDefine a constant instead of duplicating this literal "Escorcia" 3 times.(¦Óíå8íû¡°¡1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–…ç‰8îû¡°¡1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(À¡î§8öû¡°¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¥¡õ‡şÿÿÿÿ8øû¡°¡1
+U	java:S106""9Replace this use of System.out or System.err by a logger.(ñ¬©ñ8øû¡°¡1
+T	java:S106("9Replace this use of System.out or System.err by a logger.( ô¨K8ùû¡°¡1
+T	java:S106*"9Replace this use of System.out or System.err by a logger.(³£—e8ùû¡°¡1
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(ğè£¼8ûû¡°¡1
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(›ì»•8ıû¡°¡1
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(“©½®8ıû¡°¡1
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(ÚòÒİ8şû¡°¡1
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(ö©ùşÿÿÿÿ8şû¡°¡1
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(Ñ½êıÿÿÿÿ8ÿû¡°¡1
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(²­€8ÿû¡°¡1
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(âˆğÄüÿÿÿÿ8€ü¡°¡1
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(¨Îë£8ü¡°¡1
+h
+java:S6201I"FReplace this instanceof check and cast with 'instanceof Alumno alumno'(¹”üìùÿÿÿÿ8şû¡°¡1
+h
+java:S6201I"FReplace this instanceof check and cast with 'instanceof Alumno alumno'(¹”üìùÿÿÿÿ8şû¡°¡1
+h
+java:S6201I"FReplace this instanceof check and cast with 'instanceof Alumno alumno'(¹”üìùÿÿÿÿ8şû¡°¡1
+h
+java:S6201I"FReplace this instanceof check and cast with 'instanceof Alumno alumno'(¹”üìùÿÿÿÿ8şû¡°¡1
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(«š»Ö8Á×£°¡1
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(¤‡¦îüÿÿÿÿ8ª¨Â°¡1
+‚
+java:S6201O"`Replace this instanceof check and cast with 'instanceof AlumnoInternacional alumnointernacional'(¥Ø©Öùÿÿÿÿ8€ü¡°¡1
+‚
+java:S6201O"`Replace this instanceof check and cast with 'instanceof AlumnoInternacional alumnointernacional'(¥Ø©Öùÿÿÿÿ8€ü¡°¡1
+U	java:S106P"9Replace this use of System.out or System.err by a logger.(¾Ö€ 8ëÉ†±¡1
+Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(Ó’¾Êıÿÿÿÿ8¦ß‡±¡1

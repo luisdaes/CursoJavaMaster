@@ -1,0 +1,5 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–…ç‰8íÞù°¡1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÞ‰É8óÞù°¡1
+]
+java:S1128";Remove this unused import 'com.sun.source.tree.ReturnTree'.(Ù•À„ÿÿÿÿÿ8ôÞù°¡1
