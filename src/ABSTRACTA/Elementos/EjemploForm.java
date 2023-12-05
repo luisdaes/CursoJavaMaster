@@ -18,7 +18,7 @@ public class EjemploForm {
 
 	SelectForm lenguaje = new SelectForm("lenguaje");
 
-	lenguaje.addOpcion(new Opcion("1", "Java")).addOpcion(new Opcion("2", "Python").setSelected())
+	lenguaje.addOpcion(new Opcion("1", "Java")).addOpcion(new Opcion("2", "Python"))
 		.addOpcion(new Opcion("3", "JavaScript")).addOpcion(new Opcion("4", "TypeScript"))
 		.addOpcion(new Opcion("5", "PHP"));
 
