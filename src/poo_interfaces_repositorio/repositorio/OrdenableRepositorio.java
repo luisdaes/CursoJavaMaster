@@ -2,11 +2,11 @@ package poo_interfaces_repositorio.repositorio;
 
 import java.util.List;
 
-import poo_interfaces_repositorio.models.Cliente;
-import poo_interfaces_repositorio.models.DireccionEnum;
+import poo_interfaces_repositorio.repositorio.models.Cliente;
+import poo_interfaces_repositorio.repositorio.models.DireccionEnum;
 
-public interface OrdenableRepositorio {
-  List<Cliente> listar(String campo, DireccionEnum direccion);
+public interface OrdenableRepositorio<T> {
+  List<T> listar(String campo, DireccionEnum direccion);
 
   default int ordenar(Cliente a, Cliente b, String campo) {
     int resultado = 0;
