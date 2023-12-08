@@ -59,10 +59,6 @@ S
 #src/poo_interfaces/models/Hoja.java,c\8\c85fe66c45b7c57d2c9e2d7937dcd486b901c689
 V
 &src/poo_interfaces/models/Persona.java,d\4\d4ed5a056a6b804a13e0297b72cd560e5cf759a5
-h
-8src/poo_interfaces_repositorio/models/DireccionEnum.java,4\d\4d9c143121c5a80f655174a9cbad716ff4608144
-b
-2src/poo_interfaces_repositorio/models/Cliente.java,5\3\53e33611be94f916349b30049afa3399e1d0bd13
 t
 Dsrc/poo_interfaces_repositorio/repositorio/PaginableRepositorio.java,9\4\948e1d147b37e5ad30e13078e595bc14171fb9e8
 o
@@ -73,10 +69,6 @@ o
 ?src/poo_interfaces_repositorio/repositorio/FullRepositorio.java,2\d\2de2ec332cf0da2e3fa206593928c205217d3785
 s
 Csrc/poo_interfaces_repositorio/repositorio/ContableRepositorio.java,d\7\d75022b9b0b31c74b7bbfe3659fd1c28dc20cf92
-w
-Gsrc/poo_interfaces_repositorio/repositorio/ClienteListaRepositorio.java,1\b\1b4c6c11fa1569a0576cca78c9374da3a38068ab
-f
-6src/poo_interfaces_repositorio/EjemploRepositorio.java,d\b\db3bc5ab53c8ab1d164dc69748fafc7f589c6725
 [
 +src/org/uml/appfacturas/modelo/Cliente.java,e\b\ebbf0f29b52ea70902f327f8b3929389f2be65a2
 m

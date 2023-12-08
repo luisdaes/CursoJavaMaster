@@ -5,13 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import poo_interfaces_repositorio.repositorio.AbstractaListaRepositorio;
+import poo_interfaces_repositorio.repositorio.excepciones.LecturaAccesoDatoException;
 import poo_interfaces_repositorio.repositorio.models.Cliente;
 import poo_interfaces_repositorio.repositorio.models.DireccionEnum;
 import poo_interfaces_repositorio.repositorio.models.Producto;
 
 public class ProductoListaRepositorio extends AbstractaListaRepositorio<Producto> {
   @Override
-  public void editar(Producto producto) {
+  public void editar(Producto producto) throws LecturaAccesoDatoException {
 	Producto p = porId(producto.getId());
 	p.setDescripcion(producto.getDescripcion());
 	p.setPrecio(producto.getPrecio());
