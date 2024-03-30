@@ -1,6 +1,6 @@
-package thread;
+package THREAD;
 
-import thread.runnable.ViajeTareaRunnable;
+import THREAD.runnable.ViajeTareaRunnable;
 
 public class EjemploInterfaceRunnable {
   public static void main(String[] args) {

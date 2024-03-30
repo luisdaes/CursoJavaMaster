@@ -1,4 +1,4 @@
-package thread.threads;
+package THREAD.threads;
 
 public class NombreThread extends Thread{
 

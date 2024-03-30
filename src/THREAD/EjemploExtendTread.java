@@ -1,6 +1,6 @@
-package thread;
+package THREAD;
 
-import thread.threads.NombreThread;
+import THREAD.threads.NombreThread;
 
 public class EjemploExtendTread {
   public static void main(String[] args) throws InterruptedException {

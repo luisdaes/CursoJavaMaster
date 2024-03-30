@@ -1,4 +1,4 @@
-package thread.runnable;
+package THREAD.runnable;
 
 public class ViajeTareaRunnable implements Runnable{
 
