@@ -1,6 +1,6 @@
 package STREAM;
 
-import org.aguzman.api.stream.ejemplos.models.Usuario;
+import STREAM.MODELS.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,15 +10,15 @@ import java.util.stream.Stream;
 public class EjemploStreamParallel {
     public static void main(String[] args) {
 
-        List<Usuario> lista = new ArrayList<>();
-        lista.add(new Usuario("Andrés", "Guzmán"));
-        lista.add(new Usuario("Luci", "Martínez"));
-        lista.add(new Usuario("Pepe", "Fernández"));
-        lista.add(new Usuario("Cata", "Pérez"));
-        lista.add(new Usuario("Lalo", "Mena"));
-        lista.add(new Usuario("Exequiel", "Doe"));
-        lista.add(new Usuario("Bruce", "Lee"));
-        lista.add(new Usuario("Bruce", "Willis"));
+        List<User> lista = new ArrayList<>();
+        lista.add(new User("Andrés", "Guzmán"));
+        lista.add(new User("Luci", "Martínez"));
+        lista.add(new User("Pepe", "Fernández"));
+        lista.add(new User("Cata", "Pérez"));
+        lista.add(new User("Lalo", "Mena"));
+        lista.add(new User("Exequiel", "Doe"));
+        lista.add(new User("Bruce", "Lee"));
+        lista.add(new User("Bruce", "Willis"));
 
         long t1 = System.currentTimeMillis();
         String resultado = lista.stream()

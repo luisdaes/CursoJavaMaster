@@ -1,7 +1,8 @@
 package STREAM;
 
-import org.aguzman.api.stream.ejemplos.models.Factura;
-import org.aguzman.api.stream.ejemplos.models.Usuario;
+import STREAM.MODELS.Facture;
+import STREAM.MODELS.User;
+import STREAM.MODELS.Facture;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,20 +10,20 @@ import java.util.List;
 public class EjemploStreamFlatMapFactura {
     public static void main(String[] args) {
 
-        Usuario u1 = new Usuario("John", "Doe");
-        Usuario u2 = new Usuario("Pepe", "Pérez");
+        User u1 = new User("John", "Doe");
+        User u2 = new User("Pepe", "Pérez");
 
-        u1.addFactura(new Factura("compras tecnologías"));
-        u1.addFactura(new Factura("compras muebles"));
+        u1.addFacture(new Facture("compras tecnologías"));
+        u1.addFacture(new Facture("compras muebles"));
 
-        u2.addFactura(new Factura("bicicleta"));
-        u2.addFactura(new Factura("notebook gamer"));
+        u2.addFacture(new Facture("bicicleta"));
+        u2.addFacture(new Facture("notebook gamer"));
 
-        List<Usuario> usuarios = Arrays.asList(u1, u2);
+        /*List<User> usuarios = Arrays.asList(u1, u2);
         usuarios.stream()
                 .flatMap(u -> u.getFacturas().stream())
                 .forEach(f -> System.out.println(f.getDescripcion().concat(" : cliente ")
-                .concat(f.getUsuario().toString())));
+                .concat(f.get().toString())));*/
 
         /*for(Usuario u: usuarios){
             for(Factura f: u.getFacturas()){

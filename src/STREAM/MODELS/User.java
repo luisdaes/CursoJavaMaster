@@ -5,6 +5,15 @@ public class User {
   private String name;
   private String lastName;
   private Integer id;
+  private Facture facture;
+
+  public Facture getFacture() {
+	return facture;
+  }
+
+  public void setFacture(Facture facture) {
+	this.facture = facture;
+  }
 
   public Integer getId() {
 	return id;
@@ -33,6 +42,10 @@ public class User {
 
   public void setLastName(String lastName) {
 	this.lastName = lastName;
+  }
+
+  public Facture addFacture(Facture facture) {
+	return facture;
   }
 
 }
