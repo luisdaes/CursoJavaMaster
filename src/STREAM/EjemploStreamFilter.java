@@ -1,7 +1,6 @@
 package STREAM;
 
 import STREAM.MODELS.User;
-import org.aguzman.api.stream.ejemplos.models.Usuario;
 
 import java.util.List;
 import java.util.stream.Collectors;
