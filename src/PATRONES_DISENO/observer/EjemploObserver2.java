@@ -7,7 +7,7 @@ public class EjemploObserver2 {
 
 	repositorio.addObserver((o, user) -> System.out.println("Enviando email al usuario " + user));
 	repositorio.addObserver((o, user) -> System.out.println("Enviando email al administrador"));
-	repositorio.addObserver((o, user) -> System.out.println("Registrando LOG de información de creación " + user + " en logs"));
+	repositorio.addObserver((o, user) -> System.out.println("Registrando LOG de información de creación " + user + " gitnen logs"));
 	repositorio.crearUsuario("Luisda");
   }
 }
