@@ -19,9 +19,12 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
 	return ConexionBaseDatos.getInstance();
   }
 
-
   private Connection getConnectionSinglenton() throws SQLException {
 	return ConexionBaseDatos.getInstanceSinglenton();
+  }
+
+  private Connection getConnectionPool() throws SQLException {
+	return ConexionBaseDatos.getPoolConnection();
   }
 
 
@@ -31,7 +34,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
 	String sql = "SELECT pro.*, cat.nombre AS categoria FROM productos pro " +
 		" INNER JOIN categorias cat ON (pro.categoria_id = cat.id_categoria)";
 	List<Producto> productos = new ArrayList<>();
-	try (Connection connection = getConnectionSinglenton();
+	try (Connection connection = getConnectionPool();
 		Statement statement = connection.createStatement();
 		//ResultSet resultSet = statement.executeQuery("select * from productos")) {
 		ResultSet resultSet = statement.executeQuery(sql)) {
@@ -54,7 +57,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
 		"INNER JOIN categorias cat ON (pro.categoria_id = cat.id_categoria) where id_producto=?";
 
 	Producto producto = null;
-	try (Connection connection = getConnectionSinglenton();
+	try (Connection connection = getConnectionPool();
 		PreparedStatement pStatement = connection.prepareStatement(sql)) {
 
 	  pStatement.setLong(1, id);
@@ -79,7 +82,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
 	  sql = "INSERT INTO productos (nombre, precio, categoria_id, fecha_registro) VALUES (?,?,?,?)";
 	}
 
-	try (Connection connection = getConnectionSinglenton();
+	try (Connection connection = getConnectionPool();
 		PreparedStatement pStatement = connection.prepareStatement(sql)) {
 
 	  pStatement.setString(1, producto.getNombre());
@@ -101,7 +104,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
   @Override
   public void eliminar(Long idProducto) {
 
-	try (PreparedStatement pStatement = getConnection()
+	try (PreparedStatement pStatement = getConnectionPool()
 		.prepareStatement("DELETE FROM productos WHERE id_producto = ?")) {
 
 	  pStatement.setLong(1, idProducto);
