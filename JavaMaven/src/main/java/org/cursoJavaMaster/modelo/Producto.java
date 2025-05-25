@@ -13,13 +13,23 @@ public class Producto implements Serializable {
   private Date fechaRegistro;
 
   private Categoria categoria;
+  private String sku;
 
   /**Constructor vacio**/
   public Producto() {
-
   }
 
   /**Constructor con parametros**/
+  public Producto(Long idProducto, String nombre, Long precio, Date fechaRegistro,
+	  Categoria categoria, String sku) {
+	this.idProducto = idProducto;
+	this.nombre = nombre;
+	this.precio = precio;
+	this.fechaRegistro = fechaRegistro;
+	this.categoria = categoria;
+	this.sku = sku;
+  }
+
   public Producto(Long idProducto, String nombre, Long precio, Date fechaRegistro,
 	  Categoria categoria) {
 	this.idProducto = idProducto;
@@ -70,6 +80,14 @@ public class Producto implements Serializable {
 
   public void setCategoria(Categoria categoria) {
 	this.categoria = categoria;
+  }
+
+  public String getSku() {
+	return sku;
+  }
+
+  public void setSku(String sku) {
+	this.sku = sku;
   }
 
   @Override

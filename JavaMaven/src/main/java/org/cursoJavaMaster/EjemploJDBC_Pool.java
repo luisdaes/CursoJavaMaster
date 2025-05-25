@@ -1,5 +1,6 @@
 package org.cursoJavaMaster;
 
+import java.sql.SQLException;
 import java.util.Date;
 
 import org.cursoJavaMaster.modelo.Categoria;
@@ -9,7 +10,7 @@ import org.cursoJavaMaster.repositorio.Repositorio;
 
 public class EjemploJDBC_Pool {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws SQLException {
 
 	Repositorio<Producto> productoRepo = new ProductoRepositorioImpl();
 
